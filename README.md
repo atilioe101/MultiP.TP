@@ -39,7 +39,7 @@ MultiP.TP
     
 - 1 directiva de atributo (custom)
 
-      La directiva de atributo es directive/resaltar.directive.ts
+      La directiva de atributo es directive/resaltar.directive
       La implementa el componente components/dispositivo.component
         
 - 1 pipe custom 
