@@ -1,0 +1,27 @@
+<ng-template [ngIf]="log_entry.length > 0" [ngIfElse]="loading">
+    <div style="margin-top:1.5rem;text-align: center;padding:0.1rem;color:#ffffff;background-color: #26a69a;">
+        <strong>{{title}}</strong>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th style="text-align: center;">FECHA</th>
+            <th style="text-align: center;">APERTURA</th>
+            <th style="text-align: center;">VALVULA</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor = "let row of log_entry">
+            <td style="text-align: left;">{{row.fecha | formatDate}}</td>
+            <td style="text-align: right;">{{row.apertura}}</td>
+            <td style="text-align: right;">{{row.electrovalvulaId}}</td>
+        </tr>     
+        </tbody>
+    </table>
+</ng-template>
+<ng-template #loading>
+    <div style="width:100%; text-align:center;margin-top:0.8rem"> 
+        <img src="assets/images/empty_doc.png" style="width:4rem;height:4rem;"/>     
+        <div><strong>Log de riego sin datos</strong></div>
+    </div>
+</ng-template>
