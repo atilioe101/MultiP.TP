@@ -45,16 +45,16 @@ MultiP.TP
 - 1 pipe custom 
   
       Los pipe custom son:
-        a) pipes/celsius.pipe.ts
-        b) pipes/date.pipe.ts
+        a) pipes/celsius.pipe
+        b) pipes/date.pipe
       Son implementados por los componentes log.component y medicion.component.
     
 - 1 servicio para conectar a la API
 
        Existen tres servicios que son implementados por sus respectivos componentes: 
-         a) service/dispositivo.service.ts
-         b) service/log.service.ts
-         c) service/medicion.service.ts
+         a) service/dispositivo.service
+         b) service/log.service
+         c) service/medicion.service
     
 - 1 Api en Express con comunicación a la base de datos
 
