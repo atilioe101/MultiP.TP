@@ -9,7 +9,7 @@ Atilio Cesar Errecaborde
 ## Estructura del proyecto
 La estructura del proyecto está organizada de la siguiente manera: 
 
-Multip.TP
+MultiP.TP
 
   └───Database (script para crear la base de datos desde el shell de mongoDB)
   
