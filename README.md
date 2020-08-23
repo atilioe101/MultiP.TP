@@ -30,7 +30,7 @@ MultiP.TP
 
 ## Instalación
 
-  1) Ejecutar el script en el shell de mongo para crear la base de datos [`crearDB.js`](https://github.com/atilioe101/MultiP.TP/blob/master/Database/createDB.js)
+  1) Ejecutar el script en el shell de mongo para crear la base de datos [`createDB.js`](https://github.com/atilioe101/MultiP.TP/blob/master/Database/createDB.js)
 
             Nombre de la base de datos creada: XRiego
             Colecciones creadas: Dispositivos, Mediciones y Log_Riegos
