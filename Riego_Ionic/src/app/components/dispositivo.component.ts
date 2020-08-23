@@ -1,10 +1,11 @@
 import { DispositivoService } from '../service/dispositivo.service';
-import { Component, OnInit, ComponentFactoryResolver, ViewContainerRef, ViewChild, Injector, ApplicationRef } from '@angular/core';
+import { Component, OnInit, ComponentFactoryResolver, ViewContainerRef, ViewChild, Injector, ApplicationRef, Directive } from '@angular/core';
 import {DispositivoItem} from '../support/dispositivo';
 import {Celsius} from '../pipes/celsius.pipe';
 
 import {LogComponent} from './log.component';
 import {MedicionComponent} from './medicion.component';
+import {Resaltar} from './../directive/resaltar.directive'
 
 import { Platform } from '@ionic/angular';
 
@@ -12,7 +13,7 @@ import { Platform } from '@ionic/angular';
     selector: 'app-dispositivo',
     templateUrl:'dispositivo.component.html',
     styleUrls: ['dispositivo.component.css', './../../assets/css/materialize.css'],
-    providers: [ Celsius ]
+    providers: [ Celsius, Platform ]
 })
 
 export class DispositivoComponent implements OnInit { 
