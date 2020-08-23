@@ -5,12 +5,13 @@ import {Celsius} from '../pipes/celsius.pipe';
 
 import {LogComponent} from './log.component';
 import {MedicionComponent} from './medicion.component';
+import {Resaltar} from './../directive/resaltar.directive'
 
 @Component({
     selector: 'app-dispositivo',
     templateUrl:'dispositivo.component.html',
     styleUrls: ['dispositivo.component.css', './../../assets/css/materialize.css'],
-    providers: [ Celsius ]
+    providers: [ Celsius, Resaltar ]
 })
 
 export class DispositivoComponent implements OnInit { 

@@ -2,7 +2,7 @@
 <div class="container">		
   <div class="row">
     <div class="col s10">
-      <ng-template [ngIf]="dispositivos.length > 0" [ngIfElse]="loading">
+      <ng-template [ngIf]="dispositivos?.length > 0" [ngIfElse]="loading">
           <ul class="collection">
             <li class="collection-item avatar" *ngFor = "let row of dispositivos">           
               <div><a href="#!" class="secondary-content" (click)="displayMedicion(row)"><i class="material-icons">▼<strong>Mediciones</strong></i></a></div>                
@@ -35,7 +35,7 @@
       <ng-template #loading>
           <div style="width:100%; text-align:center">
             <img src="assets/images/empty.png" style="width:10rem;height:10rem;"/>
-            <p>No existen dispositivos conectados</p>
+            <p><span appDirResalta>No existen dispositivos conectados</span></p>
           </div>
       </ng-template>      
     </div>
