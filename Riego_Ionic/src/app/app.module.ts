@@ -16,6 +16,7 @@ import { LogService } from './service/log.service';
 import { MedicionService } from './service/medicion.service';
 import {Celsius} from './pipes/celsius.pipe';
 import {FormatDate} from './pipes/date.pipe';
+import {Resaltar} from './directive/resaltar.directive';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -27,7 +28,8 @@ import { AppRoutingModule } from './app-routing.module';
     MedicionComponent,
     LogComponent,
     Celsius,
-    FormatDate],
+    FormatDate,
+    Resaltar],
   entryComponents: [],
   imports: [BrowserModule, 
     IonicModule.forRoot(), 
