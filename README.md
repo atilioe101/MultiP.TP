@@ -32,30 +32,30 @@ MultiP.TP
 
 - 2 Directivas estructurales (ngIf, ngFor)
     
-    Los template que implementan estas directivas estructurales son: 
-        a) components/dispositivo.component.html
-        b) components/log.component.html
-        c) components/medicion.component.html
+      Los template que implementan las directivas estructurales son: 
+          a) components/dispositivo.component.html
+          b) components/log.component.html
+          c) components/medicion.component.html
     
 - 1 directiva de atributo (custom)
         
 - 1 pipe custom 
   
-    Los pipe custom son:
-      a) pipes/celsius.pipe.ts
-      b) pipes/date.pipe.ts
-    Son implementados por los componentes log.component y medicion.component.
+      Los pipe custom son:
+        a) pipes/celsius.pipe.ts
+        b) pipes/date.pipe.ts
+      Son implementados por los componentes log.component y medicion.component.
     
 - 1 servicio para conectar a la API
 
-     Existen tres servicios que están implementados por sus respectivos componentes: 
-       a) service/dispositivo.service.ts
-       b) service/log.service.ts
-       c) service/medicion.service.ts
+       Existen tres servicios que están implementados por sus respectivos componentes: 
+         a) service/dispositivo.service.ts
+         b) service/log.service.ts
+         c) service/medicion.service.ts
     
 - 1 Api en Express con comunicación a la base de datos
 
-    Disponible en la carpeta WebAPI. Se conecta a una base de datos MongoDB.
+      Disponible en la carpeta WebAPI. Se conecta a una base de datos MongoDB.
 
 
 ## Instalación
