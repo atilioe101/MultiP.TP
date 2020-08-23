@@ -17,7 +17,7 @@ MultiP.TP
   
   └───Riego_Ionic (front-end del proyecto en Ionic)
   
-  └───WebAPI (back-end del proyecto utilizando Node.js)
+  └───WebAPI (back-end del proyecto en Node.js)
   
   
 
