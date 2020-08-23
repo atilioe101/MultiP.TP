@@ -48,7 +48,7 @@ MultiP.TP
     
 - 1 servicio para conectar a la API
 
-       Existen tres servicios que están implementados por sus respectivos componentes: 
+       Existen tres servicios que son implementados por sus respectivos componentes: 
          a) service/dispositivo.service.ts
          b) service/log.service.ts
          c) service/medicion.service.ts
