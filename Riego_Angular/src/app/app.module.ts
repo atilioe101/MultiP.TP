@@ -12,6 +12,7 @@ import { LogService } from './service/log.service';
 import { MedicionService } from './service/medicion.service';
 import {Celsius} from './pipes/celsius.pipe';
 import {FormatDate} from './pipes/date.pipe';
+import {Resaltar} from './directive/resaltar.directive';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {FormatDate} from './pipes/date.pipe';
     MedicionComponent,
     LogComponent,
     Celsius,
-    FormatDate
+    FormatDate,
+    Resaltar
   ],
   imports: [
     BrowserModule,
