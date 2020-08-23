@@ -1,13 +1,13 @@
 # Multip.TP
 Trabajo práctico para la materia Desarrollo Multiplata que forma parte de la especialidad en Internet de las Cosas de la Universidad de Buenos Aires.
 
-![status](https://img.shields.io/badge/status-running-green.svg?colorB=00C106) ![readme](https://img.shields.io/badge/readme-OK-green.svg?colorB=00C106) ![database](https://img.shields.io/badge/database-OK-green.svg?colorB=00C106) ![commits](https://img.shields.io/badge/commits-17-blue.svg)  ![techs](https://img.shields.io/badge/techs-javascript—php—css—bootstrap-yellow-angular-ionic-typescript.svg)
+![status](https://img.shields.io/badge/status-running-green.svg?colorB=00C106) ![readme](https://img.shields.io/badge/readme-OK-green.svg?colorB=00C106) ![database](https://img.shields.io/badge/database-OK-green.svg?colorB=00C106) ![commits](https://img.shields.io/badge/commits-17-blue.svg)  ![techs](https://img.shields.io/badge/techs-javascript—php—css—bootstrap-yellow-angular-ionic.svg)
 
 ## Autor
 Atilio Cesar Errecaborde
 
 ## Estructura del proyecto
-La estructura del proyecto está organizadas de la siguiente manera. 
+La estructura del proyecto está organizada de la siguiente manera: 
 
 Multip.TP
 
@@ -23,8 +23,8 @@ Multip.TP
 
 
 ### Funcionalidades y características
-- Mostrar listado de todos los dispositivos Iot conectados
-- Por cada dispositivo listado habilitar las opciones de ver las mediciones del sensor y el log de Riegos
+- Mostrar listado de todos los dispositivos IoT conectados
+- Por cada dispositivo listado, habilitar las opciones de ver las mediciones del sensor y el log de Riegos
 - Apagar/Encender la electrovalvula asociada a cada dispositivo.
 
 
