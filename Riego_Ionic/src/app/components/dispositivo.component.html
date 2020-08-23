@@ -1,0 +1,49 @@
+
+<div class="container">		
+  <div class="row">
+    <div class="col s10">
+      <ng-template [ngIf]="dispositivos?.length > 0" [ngIfElse]="loading">
+          <ul class="collection">
+            <li class="collection-item avatar" *ngFor = "let row of dispositivos">           
+              <div><a href="#!" class="secondary-content" (click)="displayMedicion(row)"><i class="material-icons">▼<strong>Mediciones</strong></i></a></div>                
+              <div><a href="#!" class="secondary-content" (click)="displayLog(row);"><i class="material-icons">▼<strong>Riegos</strong></i></a></div>          
+              <div [ngSwitch]="getTempRango(row.ultimamedicion.valor)">            
+                <img *ngSwitchCase="1" src="assets/images/temp_low.png"  class="img_temp circle"/>
+                <img *ngSwitchCase="2" src="assets/images/temp_medium.png"  class="img_temp circle"/>
+                <img *ngSwitchCase="3" src="assets/images/temp_high.png"  class="img_temp circle"/>            
+              </div>  
+              <div>{{row.nombre | uppercase}} (Zona {{row.ubicacion}})</div>          
+              <div><strong><h6>{{row.ultimamedicion.valor | celsius}}</h6></strong></div> 
+              <div style="margin-top:0.8rem;"><div class="switch">
+                <span><strong>Electrovalvula</strong></span>
+                <label style="margin-left:2%;">
+                  Off<input type="checkbox" [checked]="getEstadoValvula(row)" (change)="updEstadoValvula($event,row)"/>
+                  <span class="lever"></span>On
+                </label>
+              </div></div>
+              <div class="container" >
+                <div class="row">
+                  <div class="col s10">
+                      <div id="content_log_{{row.dispositivoId}}"></div>
+                      <div id="content_msre_{{row.dispositivoId}}"></div>
+                  </div>
+                </div>
+              </div>		
+            </li>
+          </ul>
+      </ng-template>
+      <ng-template #loading>
+          <div style="width:100%; text-align:center">
+            <img src="assets/images/empty.png" style="width:10rem;height:10rem;"/>
+            <p>No existen dispositivos conectados</p>
+          </div>
+      </ng-template>      
+    </div>
+  </div>
+</div>		
+
+
+
+
+
+
