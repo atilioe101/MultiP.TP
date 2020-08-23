@@ -220,7 +220,7 @@ db.Log_Riegos.insertMany([
 /* 16 */
 {
     
-    "apertura" : "1",
+    "apertura" : "0",
     "fecha" : "2020-08-22T19:27:53.662Z",
     "dispositivoId" : "1",
     "electrovalvulaId" : "1"
