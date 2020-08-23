@@ -1,7 +1,7 @@
 # Multip.TP
 Trabajo práctico para la materia Desarrollo Multiplataforma de la especialidad en Internet de las Cosas de la Universidad de Buenos Aires.
 
-![status](https://img.shields.io/badge/status-running-green.svg?colorB=00C106) ![readme](https://img.shields.io/badge/readme-OK-green.svg?colorB=00C106) ![database](https://img.shields.io/badge/database-OK-green.svg?colorB=00C106) ![commits](https://img.shields.io/badge/commits-5-blue.svg)  ![techs](https://img.shields.io/badge/techs-javascript—php—css—bootstrap-yellow-angular-ionic.svg)
+![status](https://img.shields.io/badge/status-running-green.svg?colorB=00C106) ![readme](https://img.shields.io/badge/readme-OK-green.svg?colorB=00C106) ![database](https://img.shields.io/badge/database-OK-green.svg?colorB=00C106) ![commits](https://img.shields.io/badge/commits-5-blue.svg)
 
 ## Autor
 Atilio Cesar Errecaborde
