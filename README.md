@@ -38,6 +38,9 @@ MultiP.TP
           c) components/medicion.component.html
     
 - 1 directiva de atributo (custom)
+
+      La directiva de atributo es directive/resaltar.directive.ts
+      La implementa el componente components/dispositivo.component
         
 - 1 pipe custom 
   
