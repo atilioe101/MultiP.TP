@@ -13,9 +13,9 @@ MultiP.TP
 
   └───Database (script para crear la base de datos desde el shell de mongoDB)
   
-  └───Riego_Angular (front-end del proyecto utilizando Angular)
+  └───Riego_Angular (front-end del proyecto en Angular)
   
-  └───Riego_Ionic (front-end del proyecto utilizando  Ionic)
+  └───Riego_Ionic (front-end del proyecto en Ionic)
   
   └───WebAPI (back-end del proyecto utilizando Node.js)
   
